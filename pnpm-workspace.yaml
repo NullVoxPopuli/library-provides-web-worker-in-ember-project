@@ -1,0 +1,3 @@
+packages:
+  - 'worker-example'
+  - 'test-app'
