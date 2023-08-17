@@ -5,8 +5,9 @@ import config from 'test-app/config/environment';
 
 import { Example } from 'worker-example';
 
-let example = new Example();
 
+
+let example = new Example();
 example.sendMessage('hello from the app');
 
 export default class App extends Application {
