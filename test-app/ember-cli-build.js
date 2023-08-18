@@ -6,6 +6,9 @@ module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     autoImport: {
       watchDependencies: ['worker-example'],
+      webpack: {
+        devtool: 'source-map',
+      },
     },
   });
 
